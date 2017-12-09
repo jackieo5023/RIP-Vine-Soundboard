@@ -8,7 +8,7 @@ import android.widget.Button;
 
 
 public class MainActivity extends AppCompatActivity {
-
+    MediaPlayer mp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +23,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void playSound(int sound) {
-        MediaPlayer mp = MediaPlayer.create(this, sound);
+        mp = MediaPlayer.create(this, sound);
         mp.start();
+        if (!mp.isPlaying()) {
+            mp.release();
+        }
     }
 }
