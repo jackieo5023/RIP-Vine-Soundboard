@@ -4,46 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:stretchColumns="*"
     tools:context="com.example.pinkd.vinesoundboard.MainActivity"
     tools:layout_editor_absoluteY="81dp">
     <TableRow
         android:layout_weight="1">
-        <Button
-            android:id="@+id/button_id"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:layout_column="0"
-            android:text="Button" />
 
         <Button
-            android:id="@+id/button_id2"
-            android:layout_width="wrap_content"
+            android:id="@+id/button_id"
             android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_column="0"
+            android:textAllCaps="false"
+            android:text="@string/shower_button" />
+        <Button
+            android:id="@+id/button_id2"
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_column="1"
-            android:text="Button" />
+            android:textAllCaps="false"
+            android:text="@string/breakfast_button" />
     </TableRow>
     <TableRow
         android:layout_weight="1">
         <Button
             android:id="@+id/button_id3"
-            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="fill_parent"
+            android:layout_width="0dp"
             android:layout_column="0"
             android:text="Button" />
         <Button
             android:id="@+id/button_id4"
-            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="fill_parent"
+            android:layout_width="0dp"
             android:layout_column="1"
             android:text="Button" />
     </TableRow>
-    <!--<Button-->
-        <!--android:id="@+id/button_id"-->
-        <!--android:layout_width="139sp"-->
-        <!--android:layout_height="126sp"-->
-        <!--android:text="Button"-->
-        <!--tools:layout_editor_absoluteX="16sp"-->
-        <!--tools:layout_editor_absoluteY="16sp" />-->
 
 </TableLayout>

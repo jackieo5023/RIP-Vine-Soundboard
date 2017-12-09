@@ -14,11 +14,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Button button = (Button) findViewById(R.id.button_id);
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                playSound(R.raw.shower);
+        final Button shower = (Button) findViewById(R.id.button_id);
+        shower.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { playSound(R.raw.shower);
             }
+        });
+        final Button breakfast = (Button) findViewById(R.id.button_id2);
+        breakfast.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) { playSound(R.raw.breakfast); }
         });
     }
 

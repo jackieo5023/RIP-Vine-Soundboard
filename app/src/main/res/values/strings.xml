@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Vine Soundboard</string>
+    <string name="shower_button">\"I don\'t sing in the shower... I perform\"</string>
+    <string name="breakfast_button">\"What is going on here... BREAKFAST\"</string>
 </resources>
