@@ -51,9 +51,6 @@ public class MainActivity extends AppCompatActivity {
     public void playSound(int sound) {
         mp = MediaPlayer.create(this, sound);
         mp.start();
-        if (!mp.isPlaying()) {
-            mp.release();
-        }
         mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mp) {
