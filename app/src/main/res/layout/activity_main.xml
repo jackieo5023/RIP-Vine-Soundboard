@@ -34,14 +34,54 @@
             android:layout_height="fill_parent"
             android:layout_width="0dp"
             android:layout_column="0"
-            android:text="Button" />
+            android:textAllCaps="false"
+            android:text="It's Wednesday, my dudes" />
         <Button
             android:id="@+id/button_id4"
             android:layout_weight="1"
             android:layout_height="fill_parent"
             android:layout_width="0dp"
             android:layout_column="1"
-            android:text="Button" />
+            android:textAllCaps="false"
+            android:text="Homework" />
+    </TableRow>
+    <TableRow
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/button_id5"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:layout_column="0"
+            android:textAllCaps="false"
+            android:text="AAAAAA" />
+        <Button
+            android:id="@+id/button_id6"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:layout_column="1"
+            android:textAllCaps="false"
+            android:text="Jello...more like hello" />
+    </TableRow>
+    <TableRow
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/button_id7"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:layout_column="0"
+            android:textAllCaps="false"
+            android:text="Watch your profanity" />
+        <Button
+            android:id="@+id/button_id8"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:layout_column="1"
+            android:textAllCaps="false"
+            android:text="Do you accept tears?" />
     </TableRow>
 
 </TableLayout>
